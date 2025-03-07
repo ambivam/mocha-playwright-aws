@@ -1,0 +1,19 @@
+{
+  "name": "mocha-playwright-aws",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mocha + Playwright automation framework with AWS integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/tests --timeout 5000"
+  },
+  "dependencies": {
+    "playwright": "^1.39.0",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.8.2",
+    "aws-sdk": "^2.1488.0"
+  }
+}
